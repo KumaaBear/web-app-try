@@ -1,0 +1,113 @@
+section{
+    background: #F7E6C4;
+}
+
+/* body-apartment-announcement */
+.body-apartment-announcement{
+    background: #FFF4F4;
+    border-radius: 20px;
+    /* border: 5px solid orange; */
+    margin: 20px 50px;
+    padding: 10px;
+}
+
+    /* end */
+
+/* body apartment information */
+.body-apartment-room-information{
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.body-apartment-room-information p{
+    font-size: 1.2rem;
+}
+
+    /* end */
+
+.body-logo-bg .logo-bg{
+    background-size: cover;
+    background-attachment: fixed; 
+    width: 100%;
+    height: 300px;
+}
+
+
+/* three room type information */
+.body-room-type{
+    margin: 20px 50px;
+    display: flex;
+    justify-content: space-evenly;
+} /* ito ung para magkaroon space yung tatlong div class*/
+
+span{
+    color: crimson;
+    font-weight: 500;
+}
+
+.small-room,
+.mid-room,
+.large-room{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 10px rgb(127, 124, 124);
+    background-color: white;
+    color: #606C5D; 
+}
+    .small-room:hover,
+    .mid-room:hover,
+    .large-room:hover{
+        margin-top: -10px;
+        margin-bottom: 10px;
+        /* box-shadow: 0 5px 10px rgb(171, 168, 168); */
+        box-shadow: 0 5px 10px #606C5D;
+    }
+.small-room p,
+.small-room h4,
+.mid-room p,
+.mid-room h4,
+.large-room p,
+.large-room h4{
+    padding: 5px 10px;
+}
+
+/* room picture*/
+.room-img-size{
+    height: 300px;
+    width: 350px;
+} 
+    /* end */
+
+/* body location css */
+.body-location{
+    background-color: #606C5D;
+    color: #FFF4F4;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+.location-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.location-other-information{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1.2rem;
+}
+.location-map{
+    height: 500px;
+    width: 700px;
+}
+.map{   
+    padding: 5px;
+}
+    /* end */
+
+

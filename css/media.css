@@ -1,0 +1,269 @@
+/* navigation responsive */
+@media (max-width: 1090px){
+    nav{
+      padding: 5px 30px;
+    }
+    nav ul li.items{
+      width: 100%;
+      display: none;
+    }
+    nav ul li.items.show{
+      display: block;
+    }
+    nav ul li.btn{
+      display: block;
+    }
+    nav ul li.items:hover{
+      border-radius: 5px;
+      box-shadow: inset 0 0 5px #33ffff,
+                  inset 0 0 10px #66ffff;
+    }
+    nav ul li.items:hover:after{
+      opacity: 0;
+    }
+}
+
+/* footer responsive */
+@media (max-width:1100px) {
+  footer .footer-content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  footer .footer-content .box{
+    width: 50%;
+  }
+  .footer-content .right{
+    margin-top: 40px;
+  }
+  .footer-logo{
+    display: none;
+  }
+}
+
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .footer-content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  .footer-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: 170px;
+    height: 100px;
+  }
+}
+
+/* body responsive | home */
+@media (max-width: 1090px){
+    .body-logo-bg .logo-bg{
+        background-size: cover;
+        height: 200px;
+    }
+    .body-room-type:hover{
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .room-img-size{
+        height: 150px;
+        width: 250px;
+    }
+    .body-apartment-room-information{
+        /* yung font sa available room types */
+        font-size: 1.2rem;
+    }  
+    .body-apartment-room-information p{
+        font-size: 1rem;
+    }
+    .location-map{
+        /* map size */
+        height: 200px;
+        width: 500px;
+    }
+    .location-other-information p{
+        /* location text */
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:830px){
+    section{
+        /* background: green; */
+    }
+    .body-room-type{
+        /* border: 5px solid black; */
+        /* display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap; */
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        /* align-items: flex-start; */
+        font-size: 9px;
+        padding: 10px;
+    }
+    .body-room-type:hover{
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .room-img-size{
+        height: 200px;
+        width: 220px;
+    }
+    .body-apartment-room-information{
+        /* yung font sa available room types */
+        font-size: 1.2rem;
+    }  
+    .body-apartment-room-information p{
+        font-size: 1rem;
+    }
+    .location-content{
+        /* map body */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .location-map{
+        /* map size */
+        margin-right: 50%;
+        margin-left: 60%;
+        /* border: 9px dotted green; */
+        height: 300px;
+        width: 320px;
+    }
+    .location-other-information p{
+        /* location text */
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 770px){
+    section{
+        /* background: red; */
+    }
+    .body-room-type{
+        /* border: 5px solid black; */
+        /* display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap; */
+        display: flex;
+        /* flex-direction: column; */
+        /* justify-content: space-evenly; */
+        align-items: flex-start;
+        font-size: 9px;
+        padding: 10px;
+    }
+    .small-room,
+    .mid-room,
+    .large-room{
+        margin: 5px;
+    }
+    .body-room-type:hover{
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .room-img-size{
+        height: 200px;
+        width: 220px;
+    }
+    .body-apartment-room-information{
+        /* yung font sa available room types */
+        font-size: 1.2rem;
+    }  
+    .body-apartment-room-information p{
+        font-size: 1rem;
+    }
+    .location-content{
+        /* map body */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .location-map{
+        /* map size */
+        height: 300px;
+        width: 320px;
+    }
+    .location-other-information p{
+        /* location text */
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 670px){
+    section{
+        /* background: violet; */
+    }
+    .body-room-type{
+        margin: 5px 3px;
+        display: flex;
+        /* justify-content: space-evenly; */
+        flex-wrap: wrap;
+        font-size: 9px;
+    }
+    .large-room{
+        margin-top: 10px;
+    }
+    .location-content{
+        /* map body */
+        display: block;
+        /* display: flex;
+        justify-content: center; */
+    }
+    .location-map{
+        /* map size */
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        width: 320px;
+       
+
+    }
+    .location-other-information p{
+        /* location text */
+        font-size: 1rem;
+    }
+}   
+
+@media (max-width: 540px){
+    section{
+        /* background: violet; */
+    }
+    .body-room-type{
+        margin: 5px 3px;
+        display: flex;
+        /* justify-content: space-evenly; */
+        flex-wrap: wrap;
+        font-size: 9px;
+    }
+    .small-room,
+    .mid-room,
+    .large-room{
+        margin: 20px;
+    }
+    .large-room{
+        margin-top: 10px;
+    }
+    .location-content{
+        /* map body */
+        display: block;
+        /* display: flex;
+        justify-content: center; */
+    }
+    .location-map{
+        /* map size */
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        width: 250px;
+    }
+    .location-other-information p{
+        /* location text */
+        font-size: 1rem;
+    }
+}
